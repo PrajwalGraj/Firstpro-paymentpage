@@ -1,0 +1,220 @@
+*{
+    box-sizing:border-box;
+    
+}
+body{
+    
+    margin: 15px 90px;
+    padding: 8px;
+    /* background-color: rgb(176, 88, 47); */
+    /* background-image: url(/bg.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.full{
+    
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 40px;
+    
+    background-image: url(/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px 90px 15px 90px;
+    border-radius: 9px;
+    /* border: solid 1px black; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    text-align: center;
+    
+}
+/* input[type="text"],
+input[type="radio"],
+input[type="date"],textarea,select{
+    border: 1px black solid;
+    padding: 19px;
+    
+    margin-bottom: 23px;
+    
+    
+} */
+
+fieldset{
+    background-color: rgb(244, 243, 243);
+    border: 1px solid black;
+    margin-bottom: 23px;
+    height:fit-content;
+    border-radius: 40px;
+}
+hr{
+    color: black;
+    
+}
+
+button{
+    text-decoration-style: none;
+    background-color: rgb(67, 176, 248);
+    border: none;
+    width: 150px;
+    cursor: pointer;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 19px;
+    padding-left: 19px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    border-radius: 40px;
+    color: white;
+    float: center;
+    
+    
+}
+.pay{
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 60px;
+}
+button:hover{
+    background-color: rgb(22, 195, 31);
+}
+select{
+    float: left;
+}
+.fname,.lname,.city,.pin{
+    width: 48%;
+    border-radius: 40px;
+    font-size: 17px;
+    background-color: rgb(247, 247, 247);border: 1px black solid;
+    padding: 19px;
+    
+    margin-bottom: 23px;
+    
+}
+.lname,.pin{
+    float: right;
+
+}
+.country{
+    width: 100%;
+    border-radius: 40px;
+    font-size: 17px;
+    border: 1px black solid;
+    padding: 19px;
+    background-color:  rgb(251, 251, 251);
+    margin-bottom: 23px;
+    border: 1px black solid;
+    padding: 19px;
+    
+    margin-bottom: 23px;
+    
+}
+.gender{
+    border: 1px solid black;
+    width: 100%;
+    background-color:  rgb(247, 247, 247);
+    border-radius: 40px;
+    
+    
+    padding: 19px;
+    
+    margin-bottom: 23px;
+    
+    text-align:center;
+    text-decoration: none;
+    font-size: 20px;
+    
+    padding-top: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.cnum,.adate,.bdate{
+    padding-left: 2px;
+    text-decoration: none;
+    border-style: none;
+    
+    
+    border-bottom: 1px solid black;
+}
+.adate,.bdate{
+    width: 28px;
+    padding-bottom: 4px;
+    padding-left: 2px;
+    font-size: 18px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+.card{
+    
+    border-radius: 20px;
+    margin-right: 120px;
+    margin-left: 120px;
+    height: 320px;
+    width: 600px;
+    background-image:  url(/cred.jpg);
+    background-size: cover;
+    box-shadow: 1px 1px 40px;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+.cnum{
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 28px;
+    
+}
+.cn{
+    text-decoration: none;
+    border-style: none;
+    font-size: 24px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    
+}
+.anum{
+    padding-left: 2px;
+    text-decoration: none;
+    border-style: none;
+    /* margin-right: 50px; */
+    margin-left: 50px;
+    font-size: 18px;
+    width: 38%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;    
+}
+.wnum{
+    
+    text-decoration: none;
+    border-style: none;
+    margin-right: 50px;
+    /* margin-left: 50px; */
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    float: right;
+    width: 20%;
+    margin-bottom: 50px;
+}
+.cv{
+    float: right;
+    text-decoration: none;
+    border-style: none;
+    margin-right: 50px;
+    /* margin-left: 50px; */
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    float: right;
+    width: 20%;
+    margin-bottom: 100px;
+    margin-top: 2px;
+}
+.cvv{
+    border-style: none;
+    font-size: 18px;
+    width: 60px;
+    padding-left: 12px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}

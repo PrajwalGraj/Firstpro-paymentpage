@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>forms</title>
+</head>
+<body>
+    <div class="full">
+        <form action="action.php">
+        <h1 class="header">Payment Form</h1>
+        <hr>
+        <!-- TOP_PAGE /////////////////////////////////////-->
+        <h3>Persional Information</h3>
+        
+        <input class="fname"  type="text" placeholder="First Name" required >
+        <input class="lname" type="text" placeholder="Last Name" required >
+        <br>
+        <input type="text " class="country" placeholder="Country" >
+        <br>
+        <input class="city" type="text" placeholder="City" required >
+        <input class="pin" type="text" placeholder="Pin Code" required >
+        <br>
+        <div class="gender">
+        Gender:    Male <input type="radio" name="gender" > Female <input type="radio" name="gender" >
+        </div>
+        
+        
+        <input type="email" class="country" placeholder="E-mail" >
+        <br><br>
+        <input type="text " class="country" placeholder="Phone number" >
+        <br>
+        <br>
+        <!-- carddetails///////////////////////////////////// -->
+        <hr>
+        <h3>Card information</h3>
+        
+        <div class="card">
+        
+        <br>
+        
+        <pre>
+
+            
+            <!-- space between card number and card photo -->
+            
+        </pre>
+        <div class="cnum">
+        Card Number
+        <br> <input type="text" class="cn" placeholder="0000 0000 0000 0000" name="" id="">
+    </div>
+        <br>
+        <div class="anum">
+        Valid till <br>
+        <input class="adate" type="text" placeholder="00" name="" id="">/
+        <input class="bdate" type="text" placeholder="00" name="" id="">
+    </div>
+    <div class="cv">
+        CVV code <br>
+        <input class="cvv" type="text" placeholder="123" name="" id="">
+        
+    </div>
+    
+    <br>
+    
+    </div>
+    
+        <div class="pay">
+        <button>Pay</button>
+    </div>
+    </form>
+    </div>
+</body>
+</html>
